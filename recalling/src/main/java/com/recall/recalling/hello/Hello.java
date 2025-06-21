@@ -21,7 +21,6 @@ public class Hello {
 	
 	@RequestMapping("hello")
 	
-	@ResponseBody
 	public String Welcome(@RequestParam String name,ModelMap model) {
 		model.put("name", name);
 		logger.debug("XXXXXXXXXXXXXXXXXXXXX"+name);
