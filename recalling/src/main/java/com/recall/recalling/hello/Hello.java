@@ -17,7 +17,7 @@ public class Hello {
 	Logger logger=LoggerFactory.getLogger(getClass());
 	
 	@RequestMapping("hello")
-	@ResponseBody
+	
 	public String Welcome(@RequestParam String name,ModelMap model) {
 		model.put("name", name);
 		logger.debug("XXXXXXXXXXXXXXXXXXXXX"+name);
