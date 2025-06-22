@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git 'https://github.com/navidbasha/Recall.git'
+                git branch: 'main' , 'https://github.com/navidbasha/Recall.git'
             }
         }
 
