@@ -16,7 +16,9 @@ pipeline {
 
         stage('Build') {
             steps {
+                dir('recalling') {
                 sh 'mvn clean package -DskipTests'
+            }
             }
         }
 
