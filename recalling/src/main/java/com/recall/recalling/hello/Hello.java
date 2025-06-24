@@ -20,7 +20,7 @@ public class Hello {
 	Logger logger=LoggerFactory.getLogger(getClass());
 	
 	@RequestMapping("hello")
-	
+	//intlij
 	public String Welcome(/*@RequestParam String name,*/ModelMap model) {
 		//model.put("model","navid");
 		//logger.debug("XXXXXXXXXXXXXXXXXXXXX"+model);
