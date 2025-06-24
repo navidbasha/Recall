@@ -21,9 +21,9 @@ public class Hello {
 	
 	@RequestMapping("hello")
 	
-	public String Welcome(@RequestParam String name,ModelMap model) {
-		model.put("name", name);
-		logger.debug("XXXXXXXXXXXXXXXXXXXXX"+name);
+	public String Welcome(/*@RequestParam String name,*/ModelMap model) {
+		//model.put("model","navid");
+		//logger.debug("XXXXXXXXXXXXXXXXXXXXX"+model);
 		return "recallHello";
 		
 	}
