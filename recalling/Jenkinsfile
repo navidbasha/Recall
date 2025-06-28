@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         APP_NAME = "recall-app"
-        JAR_NAME = "target/*.jar"
+        JAR_NAME = "recalling/target/*.jar"
         DEPLOY_DIR = "/var/lib/jenkins/app"
     }
 
