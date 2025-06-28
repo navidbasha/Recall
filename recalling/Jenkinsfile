@@ -4,7 +4,7 @@ pipeline {
     environment {
         APP_NAME = "recall-app"
         JAR_NAME = "target/*.jar"
-        DEPLOY_DIR = "/home/ubuntu/app"
+        DEPLOY_DIR = "/var/lib/jenkins/app"
     }
 
     stages {
